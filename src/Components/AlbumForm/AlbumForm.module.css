@@ -1,0 +1,87 @@
+.albumForm{
+    height: 9rem;
+    width: 48rem;
+    background-color: #F4F4F4;
+    border-radius: 15px;
+    /* margin: auto; */
+    /* margin-top: 3rem; */
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+.haaderContainer{
+    margin-left: 1.5rem;
+}
+.header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.mainContainer form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+}
+.inputContainer{
+    height: 3rem;
+    width: 27rem;
+    /* border: 2px solid rgb(38, 32, 218); */
+    margin-left: 1.2rem;
+    box-sizing: border-box;
+}
+
+.input{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid #0077FF; */
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* color: rgb(255, 255, 255); */
+    padding-left: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.buttonContainer{
+    height: 3.1rem;
+    width: 18rem;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 1rem;
+    /* margin-right: 3.2rem; */
+    box-sizing: border-box;
+}
+
+.buttonContainer button{
+    border: none;
+}
+.clear{
+    height: 2.6rem;
+    width: 6rem;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 9px;
+    margin-top: .1rem;
+    /* margin-right: 9rem; */
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.create{
+    height: 2.6rem;
+    width: 6rem;
+    background-color: #0077FF;
+    color: whitesmoke;
+    border-radius: 9px;
+    margin-top: .1rem;
+    /* margin-right: 10rem; */
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

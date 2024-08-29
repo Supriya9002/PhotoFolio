@@ -1,0 +1,74 @@
+.BtnContainder{
+    height: 2.5rem;
+    width: 4.73rem;
+    position: relative;
+    right: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    left: 24rem;
+    bottom: 8.5rem;
+    opacity: 0;
+    transform: translateX(110%);
+}
+.edit{
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px white;
+    transition: all 0.15s ease-in-out;
+    opacity: 1;
+}
+.edit:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.ImageList{
+    height: 8rem;
+    width: 27.8rem;
+    background-color: #FFFFFF;
+    /* border: 2px solid red; */
+    box-shadow: 0 4px 8px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 1rem;
+    /* margin: 1rem auto; */
+    /* gap: 1rem; */
+}
+.ImageContainer{
+    height: 6rem;
+    width: 27rem;
+    background-color: black;
+    position: relative;
+    margin: .4rem auto;
+}
+.ImageContainer img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.span{
+    /* margin-left: 12.2rem; */
+    position: relative;
+    bottom: .2rem;
+    left: 0.3rem;
+    color: rgb(100, 100, 100);
+    /* top: .2rem; */
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
