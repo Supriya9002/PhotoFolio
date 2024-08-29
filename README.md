@@ -84,7 +84,7 @@ The PhotoFolio app consists of the following components:
 - **AlbumsList:** Displays the list of albums fetched from Firestore.
 - **ImageForm:** Allows users to add or update images within an album.
 - **ImagesList:** Displays the list of images within a selected album.
-- **Carousel:** Displays images in a modal window for preview.
+- **Imagess:** Displays images in a modal window for preview.
 
 ### Component Structure
 
@@ -94,15 +94,15 @@ The PhotoFolio app consists of the following components:
     - **AlbumForm** (conditionally rendered)
     - **ImagesList** (conditionally rendered)
       - **ImageForm** (conditionally rendered)
-      - **Carousel** (conditionally rendered)
+      - **Imagess** (conditionally rendered)
   
 ## API Structure
 
 The Firebase Firestore database is structured as follows:
 
 - **Collections:**
-  - `albums` - Stores all album data.
-  - `images` - Stores all image data associated with specific albums.
+  - `name` - Stores all album data.
+  - `imageArr` - Stores all image data associated with specific albums.
 
 ## Future Enhancements
 
