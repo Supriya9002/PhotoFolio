@@ -48,7 +48,7 @@ To get started with PhotoFolio, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/photofolio.git
+    git clone https://github.com/Supriya9002/PhotoFolio
     cd photofolio
     ```
 
